@@ -12,7 +12,7 @@ module.exports = {
             message.channel.send({
                 embed: {
                     color: 'ORANGE',
-                    author: { name: 'Help pannel' },
+                    author: { name: 'Help Panel' },
                     footer: { text: 'Made by </>parTner</>#5309' },
                     fields: [
                         { name: 'Bot', value: infos },
@@ -31,7 +31,7 @@ module.exports = {
             message.channel.send({
                 embed: {
                     color: 'ORANGE',
-                    author: { name: 'Help pannel' },
+                    author: { name: 'Help Panel' },
                     footer: { text: 'Made by </>parTner</>#5309' },
                     fields: [
                         { name: 'Name', value: command.name, inline: true },

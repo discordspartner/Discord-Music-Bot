@@ -8,9 +8,9 @@ module.exports = {
     },
 
     discord: {
-        token: 'Nzg0MDgzMzQzNjk5NjA3NTc0.X8kIhA.XZwKv7JCvYgljMu1U0hZ-UjHOjs',
-        prefix: '??',
-        activity: 'APEX LEGENDS',
+        token: '--TOKEN--',
+        prefix: '--PREFIX--',
+        activity: '--BOT ACTIVITY--',
         
         
     },

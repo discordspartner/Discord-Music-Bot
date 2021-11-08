@@ -12,14 +12,15 @@ module.exports = {
             message.channel.send({
                 embed: {
                     color: 'ORANGE',
-                    author: { name: "Help Panel"},
+                    author: { name: 'Help pannel' },
                     footer: { text: 'Made by </>parTner</>#5309' },
                     fields: [
                         { name: 'Bot', value: infos },
                         { name: 'Music', value: music },
+                        { name: 'Filters', value: client.filters.map((x) => '`' + x + '`').join(', ') },
                     ],
                     timestamp: new Date(),
-                    description: `**PREFIX** ${client.config.discord.prefix} **Example :** ${client.config.discord.prefix}**help.**`,
+                    description: `To use filters, ${client.config.discord.prefix}filter (the filter). Example : ${client.config.discord.prefix}filter 8D.`,
                 },
             });
         } else {
@@ -30,7 +31,7 @@ module.exports = {
             message.channel.send({
                 embed: {
                     color: 'ORANGE',
-                    author: { name: 'Help Panel' },
+                    author: { name: 'Help pannel' },
                     footer: { text: 'Made by </>parTner</>#5309' },
                     fields: [
                         { name: 'Name', value: command.name, inline: true },

@@ -54,6 +54,8 @@ All you have to do is turn on your bot !
 -> volume <1 - 100>, change the volume.
 -> skip, skip to next music.
 -> stop, stop all music.
+-> filter <filter>, add / remove filter.
+-> w-filters, see filters.
 ```
 
 ### 💡 General commands
